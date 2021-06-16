@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+  padding: 0;
+  margin:  0;
+  font-family: 'Architects Daughter', cursive;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+#ulhead{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: rgba(66, 70, 69, 0.50);
+    padding: 5px 0px;
+}
+#nav1{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+h1{
+    color: rgb(23, 131, 219);
+    font-size: 30px;
+}
+.lista1{
+    font-size: 20px;
+    color: rgb(206, 90, 221);
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+#div2{
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    width: 100vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgba(228, 198, 30, 0.25);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#div3{
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#ulfootizq{
+    list-style: none;
+    background: rgba(78, 77, 68, 0.25);
+    border: 2px solid black;
+    width: 25vw;
+    height: 20vh;
+}
+.lista2{
+    font-size: 18px;
+    color: rgb(215, 148, 224);
+}
+p{
+    width: 130vw;
+    height: 20vh;
+    position: sticky;
+    top: 100;
+    z-index: 100;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: rgba(78, 77, 68, 0.70);
+    font-size: 20px;
+    color: rgb(145, 188, 223);
+    border: 2px solid black;
+}
+#ulfootder{
+    list-style: none;
+    background: rgba(78, 77, 68, 0.25);
+    border: 2px solid black;
+    width: 25vw;
+    height: 20vh;
+}
+.lista3{
+    font-size: 18px;
+    color: rgb(215, 148, 224);
+}
+footer{
+    width: 100vw;
+    height: 0vh;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+
+}
+#ulfooter{
+    list-style: none;
+    background: rgba(78, 77, 68, 0.25);
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: 4vh;
+}
+.lista4{
+    font-size: 15px;
+    color: rgb(37, 74, 177);
+}
+
